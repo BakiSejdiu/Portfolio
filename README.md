@@ -1,1 +1,6 @@
-## Personal Portfolio - Baki Sejdiu 
+# Personal Portfolio - Baki Sejdiu 
+
+
+## Links 
+
+[Live project](https://bakisejdiu.netlify.app/)
