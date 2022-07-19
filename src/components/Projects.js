@@ -93,6 +93,11 @@ return (
                     </div>
                     
                 </div>
+                <div className='moreProjects'>
+                    <button>
+                        <a href='https://github.com/BakiSejdiu?tab=repositories' target="_blank" rel='noopener noreferrer'>More projects</a>
+                    </button>
+                </div>
             </div>
         </section>
     </>
