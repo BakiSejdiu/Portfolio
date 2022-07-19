@@ -1,0 +1,48 @@
+.mainContent .container{
+    display: flex;
+    align-items: center;
+}
+section.mainContent {
+    height: 100vh;
+}
+
+.mainImage {
+    background: url('../../public/images/homeMain.svg') 100% no-repeat;
+    background-size: contain;
+    height: 600px;
+}
+
+.mainText, .mainImage {
+    width: 50%;
+}
+
+h1 {
+    font-size: 54px;
+    color: #3f3d56;
+}
+.mainContent .container p {
+    font-size: 22px;
+    color: #3e3b71;
+}
+
+@media (max-width: 960px) {
+
+    header {
+        padding: 2% 3% 0 3%;    }
+
+    .mainContent {
+        padding: 0 3%;
+        text-align: center;
+    }
+    .mainContent .container {
+        flex-direction: column;
+    }
+
+    .mainText, .mainImage {
+        width: 100%;
+        
+    }
+    .mainImage{
+        height: 400px;
+    }
+}

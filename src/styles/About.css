@@ -1,0 +1,107 @@
+section.about {
+    background-color: #f2f2f2;
+    padding-top: 100px;
+}
+section.about h1 {
+    margin-top: 20px;
+}
+.about .container .aboutMain{
+    display: flex;
+    align-items: center;
+}
+.aboutTitle {
+    text-align: center;
+}
+.aboutImage, .aboutText {
+    width: 50%;
+}
+
+.aboutImage {
+    background: url("../../public/images/aboutProfile.svg") no-repeat 100%;
+    background-size: contain;
+    height: 600px;
+}
+
+section.about p {
+    font-size: 22px;
+    color: #3e3b71;
+    /* text-align: justify; */
+}
+
+.aboutMain {
+    gap: 55px;
+}
+
+.skills i.fa-brands, .skills i.fa-solid {
+    font-size: 55px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+}
+
+i.fa-brands.fa-html5 {
+    color: #e54d26;
+}
+i.fa-brands.fa-css3 {
+    color: #3d8fc6;
+}
+
+i.fa-brands.fa-sass {
+    color: #c69;
+}
+
+i.fa-brands.fa-bootstrap {
+    color: #59407f;
+}
+
+i.fa-brands.fa-js {
+    color: #f0db4f;
+}
+
+i.fa-brands.fa-react {
+    color: #61dafb;
+}
+
+i.fa-brands.fa-php {
+    color: #6181b6;
+}
+i.fa-solid.fa-database {
+    color: #00618a;
+}
+i.fa-brands.fa-git-alt {
+    color: #f34f29;
+}
+.skills i.fa-brands, .skills i.fa-solid {
+    font-size: 45px;
+}
+
+@media (max-width: 960px) {
+    .about {
+            padding: 0 3%;
+    }
+    .about .container .aboutMain {
+        flex-direction: column;
+        text-align: justify;
+        
+    }
+    .aboutImage, .aboutText {
+        width: 100%;
+    }
+    .aboutMain {
+        gap: 0;
+    }
+
+    .aboutImage {
+        height: 400px;
+    }
+    .skills {
+        justify-items: center;
+    }
+
+    .about {
+        padding-bottom: 100px;
+    }
+}
