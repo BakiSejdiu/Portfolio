@@ -1,5 +1,6 @@
 # Personal Portfolio - Baki Sejdiu 
 
+Personal Porfolio created with ReactJS
 
 ## Links 
 
